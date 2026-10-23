@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="p1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD79A"/>
+      <stop offset="1" stop-color="#F5A623"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#p1)"/>
+  <circle cx="660" cy="90" r="150" fill="#FFFFFF" opacity="0.16"/>
+  <!-- коробка/магазин -->
+  <path d="M400 120 L560 175 L560 330 L400 385 L240 330 L240 175 Z" fill="#FFFFFF" opacity="0.92"/>
+  <path d="M240 175 L400 230 L560 175 L400 120 Z" fill="#FFFFFF"/>
+  <path d="M400 230 L400 385" stroke="#F5A623" stroke-width="8"/>
+  <path d="M300 205 L460 260" stroke="#F5A623" stroke-width="8"/>
+  <circle cx="470" cy="300" r="26" fill="#6FA8DC"/>
+</svg>

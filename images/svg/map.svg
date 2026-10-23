@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#EEF3F8"/>
+
+  <!-- зелёная зона (парк) -->
+  <rect x="40" y="60" width="240" height="180" rx="18" fill="#CDE8D2"/>
+  <circle cx="90" cy="120" r="22" fill="#A8D5B4"/>
+  <circle cx="150" cy="180" r="26" fill="#A8D5B4"/>
+  <circle cx="220" cy="110" r="18" fill="#A8D5B4"/>
+
+  <!-- кварталы -->
+  <g fill="#FFFFFF">
+    <rect x="320" y="50" width="180" height="150" rx="10"/>
+    <rect x="530" y="50" width="160" height="150" rx="10"/>
+    <rect x="720" y="50" width="140" height="150" rx="10"/>
+    <rect x="40" y="280" width="180" height="140" rx="10"/>
+    <rect x="250" y="280" width="200" height="140" rx="10"/>
+    <rect x="490" y="280" width="170" height="140" rx="10"/>
+    <rect x="700" y="280" width="160" height="140" rx="10"/>
+    <rect x="40" y="460" width="200" height="100" rx="10"/>
+    <rect x="280" y="460" width="180" height="100" rx="10"/>
+    <rect x="500" y="460" width="160" height="100" rx="10"/>
+    <rect x="700" y="460" width="160" height="100" rx="10"/>
+  </g>
+
+  <!-- дороги -->
+  <g stroke="#D3DCE5" stroke-width="16" stroke-linecap="round">
+    <line x1="0" y1="255" x2="900" y2="255"/>
+    <line x1="0" y1="440" x2="900" y2="440"/>
+    <line x1="305" y1="0" x2="305" y2="600"/>
+    <line x1="475" y1="0" x2="475" y2="600"/>
+    <line x1="685" y1="0" x2="685" y2="600"/>
+  </g>
+
+  <!-- главная дорога -->
+  <line x1="0" y1="255" x2="900" y2="255" stroke="#F5A623" stroke-width="20" opacity="0.85"/>
+
+  <!-- метка офиса -->
+  <g transform="translate(520,300)">
+    <path d="M0 0 C-30 -34 -46 -50 -46 -74 A46 46 0 1 1 46 -74 C46 -50 30 -34 0 0 Z" fill="#F5A623"/>
+    <circle cx="0" cy="-74" r="17" fill="#FFFFFF"/>
+  </g>
+</svg>

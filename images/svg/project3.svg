@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="p3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2C3E50"/>
+      <stop offset="1" stop-color="#22303F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#p3)"/>
+  <circle cx="700" cy="400" r="170" fill="#6FA8DC" opacity="0.14"/>
+  <!-- график -->
+  <rect x="120" y="100" width="560" height="300" rx="20" fill="#FFFFFF" opacity="0.94"/>
+  <g fill="#E6ECF3">
+    <rect x="160" y="150" width="480" height="10" rx="5"/>
+    <rect x="160" y="200" width="480" height="10" rx="5"/>
+    <rect x="160" y="250" width="480" height="10" rx="5"/>
+    <rect x="160" y="300" width="480" height="10" rx="5"/>
+  </g>
+  <polyline points="180,330 290,250 400,285 510,180 620,215" fill="none" stroke="#F5A623" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="180" cy="330" r="14" fill="#6FA8DC"/>
+  <circle cx="290" cy="250" r="14" fill="#6FA8DC"/>
+  <circle cx="400" cy="285" r="14" fill="#6FA8DC"/>
+  <circle cx="510" cy="180" r="16" fill="#F5A623"/>
+  <circle cx="620" cy="215" r="14" fill="#6FA8DC"/>
+</svg>
